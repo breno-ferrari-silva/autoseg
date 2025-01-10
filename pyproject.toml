@@ -2,20 +2,20 @@
 name = "autoseg"
 version = "1.0.0"
 description = "Estudos com dados abertos de seguros da Autoseg"
-authors = ["Breno Ferrari <seu.email@example.com>"]
+authors = ["Breno Ferrari brenoferrari.0208@gmail.com"]
 
 # Diretório dos pacotes
 packages = [
-    { include = "src" }
+    { include = "autoseg" }
 ]
 
+# Dependências do projeto
 [tool.poetry.dependencies]
 python = "^3.12.1"
 numpy = "^1.26.2"
 pandas = "^2.2.2"
 scikit-learn = "^1.3.2"
 plotly = "^5.24.1"
-# Outras dependências do projeto
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
